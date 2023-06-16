@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+body
+{
+    background-color: #f3f3eb;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Lato', Courier, monospace;
+    color: #0a100b;
+}
+
+.sub
+{
+    font-size: 14px;
+    font-family: 'Lato', Courier, monospace;
+    color: #4be86b;
+}
