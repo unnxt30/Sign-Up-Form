@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-
 body
 {
     margin: 0;
@@ -20,12 +18,28 @@ body
     background-position: center left;
     background-size: cover;
     height: 100vh;
-    width: 50%;
+    width: 39%;
     float: left;
     
 }
 
-.signup
-{
-    background-color: aquamarine;
+#heading
+{   
+    position: absolute;
+    background-color: rgb(243,244,235, 0.5)    ;
+    height: 20vh;
+    width: 39%;
+    top: 24vh;
+
+}
+
+.text
+{   
+    /* position: absolute; */
+    text-align: center;
+    font-family:  'Lato', sans-serif;
+    font-size: 42px;
+    color: black;
+    margin-top: 30vh;
+
 }
