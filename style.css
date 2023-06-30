@@ -2,6 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 .container
@@ -41,3 +42,102 @@ body
 
 }
 
+.signup
+{
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.description
+{
+    color: white;
+    text-align: center;
+    font-family:  'Lato', sans-serif;
+    font-size: 22px;
+    margin-top: 10vh;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.form
+{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    /* margin-left: 75px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: rgb(22, 22, 22); */
+}
+
+.first_name, .last_name, .email, .phone
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label
+{
+    font-size: 18px;
+    color:white;
+}
+
+input
+{
+    background-color: black;
+    border: none;
+    color: rgb(166, 166, 166);
+    text-align: center;
+    font-size: 18px;
+    height: 30px;
+    width: 200px;
+}
+
+input:focus
+{
+    outline-color: rgb(28,140,230);
+    border-color: rgb(28,140,230);
+    color: rgb(28,140,230);
+    
+}
+
+input:hover
+{
+    transform: scale(1.08)
+}
+
+
+input:focus-visible
+{
+    outline: rgb(28,140,230) solid 1px;
+    border-color: rgb(28,140,230);
+}
+
+input:invalid
+{
+    border-color: rgb(138, 37, 37);
+    outline-color: rgb(138, 37, 37);
+    color: rgb(138, 37, 37)
+}
+
+input:valid
+{
+    border-color: rgb(28,140,230);
+    color: rgb(28,140,230);
+
+}
+
+.form_container
+{
+    background-color: rgb(22, 22, 22); 
+}
+
+.name, .contact
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+}
